@@ -79,7 +79,7 @@ a {
 }
 
 a:hover {
-    background-color: linear-gradient (
+    background: linear-gradient(
         90deg,
         var(--brand-color-primary) 0%,
         var(--brand-color-secondary) 100%
@@ -98,12 +98,24 @@ ul [role="list"] {
     display: flex;
 }
 
+.itens-center {
+    align-items: center;
+}
+
 .grid {
     display: grid;
 }
 
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-24 {
+    gap: 1.5rem
+}
+
+.logo {
+    margin-right: auto;
 }
 
 @media (width >= 80em) {
