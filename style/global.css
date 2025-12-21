@@ -118,6 +118,11 @@ ul [role="list"] {
     margin-right: auto;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 @media (width >= 80em) {
     :root {
         --fs-lage: 2rem;
