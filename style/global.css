@@ -90,8 +90,8 @@ a:hover {
     color: transparent;
 }
 
-ul [role="list"] {
-    text-decoration: none;
+ul[role="list"] {
+    list-style: none;
 }
 
 .flex {
